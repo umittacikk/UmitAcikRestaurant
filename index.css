@@ -1,0 +1,178 @@
+.secenekler {
+display: block;
+background-color:#0000005d;
+display: flex;
+overflow: hidden;
+align-items: center;
+justify-content: center;
+  
+}
+
+.secenekler a {
+float: left;
+color: #ffffff;
+text-align: center;
+padding: 13px 35px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.secenekler a:hover {
+background-color: rgb(187, 179, 144);
+color: black;
+}
+
+.secenekler a.active {
+background-color: #8b5309;
+color: white;
+}
+#logoUst {
+display: block;
+margin: auto;
+width: 200px;
+}
+footer {
+display: block;
+text-align: center;
+
+}
+.footerKariyer{
+    display: block;
+    text-align: center;
+}
+.metin {
+font-family: 'Xanh Mono', monospace;
+display: block;
+max-width:50%;
+margin-left: 50px;
+margin: 150px auto;
+text-align: center;
+color: rgb(0, 0, 0);
+font-size: 160%;
+position: static;
+border: 2px solid #000000;
+background-color: rgba(226, 195, 155, 0.5);
+padding: 20px;
+
+}
+body {
+display: block;
+background-image: url("https://feast2thebeat.com/wp-content/uploads/2016/06/fttb-bg-food.jpg"); 
+background-color: #cccccc;
+}
+
+.biftek {
+    display: block;
+    width: 17%;
+    margin: 40px auto;
+    margin-right: 780px;
+    margin-bottom: -100px;
+}
+.harita {
+    width: 25%;
+    display: block;
+    margin-left: 20px auto; 
+    color: rgb(0, 0, 0); 
+    font-size: 120%;  
+    float: left;
+    margin-bottom: 150px;
+}
+.dışFoto{
+width: 22%;
+display: block;
+margin-left: 20px auto; 
+color: rgb(0, 0, 0); 
+font-size: 120%;  
+float: left;
+margin: -50px auto;
+
+}
+.metinHizmetler1{
+    font-family: 'Xanh Mono', monospace;
+max-width: 50%; 
+display: block;
+margin-left: 400px;
+margin: 80px auto;
+color: rgb(0, 0, 0);
+font-size: 135%;
+position: static;
+border: 2px solid #000000;
+background-color: rgba(226, 195, 155, 0.4);
+padding: 20px;
+text-align: center;
+}
+.dışFoto2{
+    width: 22%;
+    margin:25px auto;
+}
+
+.metinHizmetler2{
+    font-family: 'Xanh Mono', monospace;
+max-width: 50%; 
+display: block;
+position: static;
+border: 2px solid #000000;
+background-color: rgba(226, 195, 155, 0.4);
+font-size: 135%;
+margin: 50px auto;
+padding: 20px;
+text-align: center;
+
+}
+@media screen and (max-width: 700px) {
+    .secenekler, .secenekler a , .secenekler a:hover , .secenekler a.active {
+        display: block; 
+    }
+
+}
+.metinHizmetler3{
+    font-family: 'Xanh Mono', monospace;
+max-width: 50%; 
+display: block;
+position: static;
+border: 2px solid #000000;
+background-color: rgba(226, 195, 155, 0.4);
+font-size: 135%;
+margin: 90px auto;
+padding: 20px;
+text-align: center;
+}
+.adres{
+    font-family: 'Xanh Mono', monospace;
+    max-width: 50%; 
+    display: block;
+    margin-left: 500px ; 
+    margin: 70px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 200%;
+    margin-bottom: 700px;
+}
+.metinKariyer{
+    font-family: 'Xanh Mono', monospace;
+    display: block;
+    max-width: 70%;
+    margin-left: 50px;
+    margin: 50px auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+    position: static;
+    border: 2px solid #000000;
+    background-color: rgba(226, 195, 155, 0.5);
+    padding: 20px;
+}
+.imgKariyer{
+    display: block;
+    float: left;
+    }
+
+ .resimKariyer{
+    width:500px;
+    height: 250px;
+    display: table;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+    margin-left: 750px;
+ }
